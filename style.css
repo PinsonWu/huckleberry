@@ -54,11 +54,11 @@ p:last-child{
 main{
   background-color: hsl(0 0% 40%);
   border-top:8px solid hsl(0 0% 60%);
-  padding: 64px;
+  padding: 64px 0px;
 }
 
 .intro-chunk{
-  padding: 96px 24px 64px 64px;
+  padding: 96px 24px 64px 24px;
 }
 
 .intro-chunk h1{
@@ -67,7 +67,7 @@ main{
 }
 
 .intro-chunk p{
-  width: 415px;
+  max-width: 415px;
 }
 
 .intro-chunk p strong{
@@ -87,4 +87,6 @@ main{
   margin-left: -32px;
   margin-top: -16px;
   padding: 16px 24px;
+  font-size: 1.5rem;
+  line-height: 1.2;
 }
